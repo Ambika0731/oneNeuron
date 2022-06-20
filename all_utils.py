@@ -9,6 +9,7 @@ import joblib
 
 
 def prepare_data(df):
+  # function for preparing data
   X = df.drop("y", axis=1)
   y = df['y']
   print("value of X", X)
